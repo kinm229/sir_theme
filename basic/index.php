@@ -9,7 +9,7 @@ if (G5_IS_MOBILE) {
 
 include_once(G5_THEME_PATH.'/head.php');
 ?>
-
+ <?echo "안녕하세요";?>
 <h2 class="sound_only">최신글</h2>
 
 <div class="latest_top_wr">
