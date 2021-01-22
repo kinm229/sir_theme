@@ -6,16 +6,19 @@ add_stylesheet('<link rel="stylesheet" href="'.$latest_skin_url.'/style.css">', 
 $list_count = (is_array($list) && $list) ? count($list) : 0;
 ?>
 
-<div class="lat">
-    <h2 class="lat_title"><a href="<?php echo get_pretty_url($bo_table); ?>"><?php echo $bo_subject ?></a></h2>
-    <ul>
+<div class="notice01 clearfix">
+    <div class="left">
+      <h2 class="notice_title"><a href="<?php echo get_pretty_url($bo_table); ?>"><?php echo $bo_subject ?></a></h2>
+      <a href="<?php echo get_pretty_url($bo_table); ?>" class="lt_more"><span class="sound_only"><?php echo $bo_subject ?></span>더보기</a>
+    </div>
+    <ul class="right">
     <?php for ($i=0; $i<$list_count; $i++) {  ?>
-        <li class="basic_li">
+        <li class="notice_li">
 
             <a href="<? echo  $list[$i]['href']?>">
-              <?echo $list[$i]['subject'];?>3333
-              <?php echo $list[$i]['name'] ?>
-              <?php echo $list[$i]['datetime2'] ?>
+              <h3><?echo $list[$i]['subject'];?></h3>
+              <p><?php echo $list[$i]['name'] ?>
+              <?php echo $list[$i]['datetime2'] ?></p>
             </a>
 
         </li>
@@ -27,6 +30,6 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
 
 
     </ul>
-    <a href="<?php echo get_pretty_url($bo_table); ?>" class="lt_more"><span class="sound_only"><?php echo $bo_subject ?></span>더보기</a>
+
 
 </div>
