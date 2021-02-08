@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 /* 새글 스킨 (latest) */
+/* notice left */
 .clearfix:after{content:"";display: block;clear: both;}
 .notice01{width: 930px;height: 250px;}
 .notice01 .left{
@@ -19,6 +20,8 @@
 .notice01 .left .lt_more:hover{
   background-position: 0 0;
 }
+
+/* notice right */
 .notice01 .right{float: left;width: 730px;height:100%;padding:20px}
 .notice01 .right li{
   float: left;width:31.33%;margin-right:3%;

@@ -75,10 +75,10 @@ border:1px solid #558ab7 !important;
 #tnb:after {display:block;visibility:hidden;clear:both;content:""}
 #tnb .inner {margin:0 auto}
 
-#hd_wrapper {position:relative;margin:0 auto;height:140px;zoom:1}
+#hd_wrapper {position:relative;margin:0 auto;height:70px;zoom:1}
 #hd_wrapper:after {display:block;visibility:hidden;clear:both;content:""}
 
-#logo {float:left;padding:30px 0 0}
+#logo {float:left;padding:17px 0 0}
 
 .hd_sch_wr {float:left;padding:30px 0;width:445px;margin-left:65px}
 #hd_sch h3 {position:absolute;font-size:0;line-height:0;overflow:hidden}
@@ -95,7 +95,7 @@ border:1px solid #558ab7 !important;
 #hd_qnb .visit .visit-num {display:inline-block;line-height:16px;padding:0 5px;margin-left:5px;border-radius:10px;background:#da22f5;color:#fff;font-size:10px}
 
 
-.hd_login {position:absolute;right:0;top:60px}
+.hd_login {position:absolute;right:0;top:10px}
 .hd_login li {float:left;margin:0 5px;border-left:1px solid #616161;padding-left:10px;line-height:13px}
 .hd_login li:first-child {border-left:0}
 .hd_login a {color:#fff}
@@ -283,7 +283,7 @@ a.btn_admin,.btn_admin {display:inline-block;color:#d13f4a;text-decoration:none;
 
 
 /* 기본테이블 */
-.tbl_wrap table {width:100%;border-collapse:collapse;border-spacing:0 5px;background:#fff;border-top:1px solid #ececec;border-bottom:1px solid #ececec} 
+.tbl_wrap table {width:100%;border-collapse:collapse;border-spacing:0 5px;background:#fff;border-top:1px solid #ececec;border-bottom:1px solid #ececec}
 .tbl_wrap caption {padding:10px 0;font-weight:bold;text-align:left}
 .tbl_head01 {margin:0 0 10px}
 .tbl_head01 caption {padding:0;font-size:0;line-height:0;overflow:hidden}
@@ -421,7 +421,7 @@ box-shadow:2px 2px 3px 0px rgba(0,0,0,0.2)}
 
 /* 페이징 */
 .pg_wrap {clear:both;float:left;display:inline-block}
-.pg_wrap:after {display:block;visibility:hidden;clear:both;content:""} 
+.pg_wrap:after {display:block;visibility:hidden;clear:both;content:""}
 .pg {text-align:center}
 .pg_page, .pg_current {display:inline-block;vertical-align:middle;background:#eee;border:1px solid #eee}
 .pg a:focus, .pg a:hover {text-decoration:none}
@@ -445,3 +445,19 @@ box-sizing:content-box;
 /* Mobile화면으로 */
 #device_change {display:block;margin:0.3em;padding:0.5em 0;border:1px solid #eee;border-radius:2em;background:#fff;color:#000;font-size:2em;text-decoration:none;text-align:center}
 
+
+
+.loView{text-align: center;font-size:2em;font-weight:bold;color:blue}
+
+.subVisual{
+  height: 200px;background:pink;
+}
+
+.subVisual #page_title{
+  height: 100%;
+  display: flex;justify-content: center;align-items: center
+}
+.subVisual .title{background:skyblue;text-align: center;}
+.subVisual .sbtImg.subTopBg_01{background:blue;}
+.subVisual .sbtImg.subTopBg_02{background:orange;}
+.subVisual .sbtImg.subTopBg_03{background:brown;}
